@@ -1,11 +1,20 @@
-# Hands-on real-world Data Science projects
-Projetos práticos para demonstração de skills de candidatos a cientistas de dados na Neurotech.
+# PROJETO - Monitoramento de modelos de machine learning
 
-Navegue para seu desafio de interesse, baseado no problema de negócio envolvido:
+Desenvolvimento de uma API para avaliação de performance e aderência [../monitoring/app/](../monitoring/app)
 
-- [Crédito](./credit/README.md)
-- [Monitoramento de modelos](./monitoring/README.md)
+## Avaliando a API no notebook
 
-_Disclaimer:_ as bases de dados e instruções podem mudar entre um processo seletivo e outro.
+Antes de rodar as células no notebook, inicie o servidor rodando o arquivo `monitoring\app\main.py` no ambiente Python.
 
-Boa sorte e bom trabalho!
+![](https://github.com/LuanaPorciuncula/challenge-data-scientist/blob/main/gifs/run_server.gif)
+
+O notebook de avaliação da API se encontra em [../monitoring\model_monitor.ipynb](..\monitoring\model_monitor.ipynb)
+
+## Respostas das perguntas acerca do projeto
+
+1. *Se quisermos expandir o monitoramento para todos os modelos atualmente em produção, você acha que pode dar algum problema caso haja muitas requisições simultâneas ao mesmo endpoint da API? O que podemos fazer neste caso?*
+ - 
+
+
+2. *Que outro problema um modelo de machine learning pode enfrentar em produção, que você ache interessante monitorar?*
+ - 

@@ -10,7 +10,7 @@ app = FastAPI(title='Monitoramento de modelos', version="1.0.0")
 @app.get("/")
 def read_root():
     """Hello World message."""
-    return {"Hello World": "from FastAPI"}
+    return {"message": "API de monitoramento de modelos"}
 
 
 app.include_router(router, prefix="/v1")
