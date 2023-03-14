@@ -8,7 +8,7 @@ Antes de rodar as células no notebook, inicie o servidor rodando o arquivo `mon
 
 ![](https://github.com/LuanaPorciuncula/challenge-data-scientist/blob/main/gifs/run_server.gif)
 
-O notebook de avaliação da API se encontra em [../monitoring\model_monitor.ipynb](..\monitoring\model_monitor.ipynb)
+O notebook de avaliação da API se encontra em [../monitoring/model_monitor.ipynb](../monitoring/model_monitor.ipynb)
 
 ## Respostas das perguntas acerca do projeto
 
