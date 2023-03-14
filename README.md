@@ -13,8 +13,8 @@ O notebook de avaliação da API se encontra em [../monitoring\model_monitor.ipy
 ## Respostas das perguntas acerca do projeto
 
 1. *Se quisermos expandir o monitoramento para todos os modelos atualmente em produção, você acha que pode dar algum problema caso haja muitas requisições simultâneas ao mesmo endpoint da API? O que podemos fazer neste caso?*
- - 
+ - Dependendo da quantidade de requisições simultâneas, o servidor pode ficar sobrecarregado. E uma possível solução é utilizar o Docker para escalar o projeto de monitoramento de modelos, criando containers, cada um com uma instância da aplicação do servidor, de acordo com a demanda.
 
 
 2. *Que outro problema um modelo de machine learning pode enfrentar em produção, que você ache interessante monitorar?*
- - 
+ - Acredito que um problema comumente enfrentado em produção pelos modelos seja o tempo gasto na execução do treinamento e predição. Talvez seja interessante expandir a API para monitorar esses tempos em cima de bases de dados de diversos tamanhos.
